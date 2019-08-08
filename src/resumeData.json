@@ -2,7 +2,7 @@
     "main": {
         "name": "Son Le",
         "occupation": "Backend/Mobile Developer",
-        "description": "I speak in multiple programming languages (JavaScript, Python, C#, C++, Java and Kotlin) and experienced with most of their popular frameworks. I can also quickly grab a new one",
+        "description": "I speak in multiple programming languages (JavaScript, Python, C#, C++, Java and Kotlin) and experienced with most of their popular frameworks",
         "image": "profilepic.jpg",
         "bio": "I always curious about everything. If I have enough time, I will try to fully explore a problem and deliver a perfect solution for it. However, my highest priority is getting works done.",
         "contactmessage": "Interested to discuss things with me? Here you are: ",
@@ -130,7 +130,7 @@
                 "url": "http://www.sonledev.com"
             },
             {
-                "title": "Update later",
+                "title": "Update soon",
                 "category": "(offline now) A fighting gear company I started",
                 "image": "fury-fighting-gear.jpg",
                 "url": "http://www.sonledev.com"
