@@ -1,0 +1,170 @@
+{
+    "main": {
+        "name": "Son Le",
+        "occupation": "Backend/Mobile Developer",
+        "description": "I speak in multiple programming languages (JavaScript, Python, C#, C++, Java and Kotlin) and experienced with most of their popular frameworks. I can also quickly grab a new one",
+        "image": "profilepic.jpg",
+        "bio": "I always curious about everything. If I have enough time, I will try to fully explore a problem and deliver a perfect solution for it. However, my highest priority is getting works done.",
+        "contactmessage": "Interested to discuss things with me? Here you are: ",
+        "email": "leson238@gmail.com",
+        "phone": "416-835-0938",
+        "address": {
+            "street": "Vanevery",
+            "city": "Toronto",
+            "state": "Ontario",
+            "zip": "M8V 1Y6"
+        },
+        "website": "http://www.sonledev.com",
+        "resumedownload": "http://sonledev.com/resume",
+        "social": [
+            {
+                "name": "facebook",
+                "url": "http://facebook.com/le.thanhson.587",
+                "className": "fa fa-facebook"
+            },
+            {
+                "name": "twitter",
+                "url": "http://twitter.com",
+                "className": "fa fa-twitter"
+            },
+            {
+                "name": "google-plus",
+                "url": "http://googleplus.com/",
+                "className": "fa fa-google-plus"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/lee-son-93bb28a1/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "instagram",
+                "url": "http://instagram.com/",
+                "className": "fa fa-instagram"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/leson238",
+                "className": "fa fa-github"
+            },
+            {
+                "name": "skype",
+                "url": "http://skype.com",
+                "className": "fa fa-skype"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+        "education": [
+            {
+                "school": "Foreign Trade University, Hanoi, Vietnam",
+                "degree": "Bachelor of Internation Administration",
+                "graduated": "July 2014",
+                "description": "My BA Degree taught me inter-personal skills, not only with clients but also with coworkers."
+            },
+            {
+                "school": "Centenial College",
+                "degree": "Financial Planning/ Strategic Management",
+                "graduated": "August 2016",
+                "description": "I have solid background on Finance & Accounting domain. I also learnt a lot of their problems in technology era."
+            },
+            {
+                "school": "Udemy (udemy.com)",
+                "degree": "Programming languages and their frameworks: JavaScript with React and Node; C# with ASP.NET and Unity; Java with Spring, libGDX and Android Studio; Python with Flask; C++",
+                "graduated": "On going",
+                "description": "Despite learning/working full time, I still managed to learn and master various technology tools and techniques."
+            }
+        ],
+        "work": [
+            {
+                "company": "Awesome Design Studio",
+                "title": "Senior UX God ",
+                "years": "March 2010 - Present",
+                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+            },
+            {
+                "company": "Super Cool Studio",
+                "title": "Junior bug fixer",
+                "years": "March 2007 - February 2010",
+                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Node.js (with express.js and websocket)",
+                "level": "60%"
+            },
+            {
+                "name": "SQL and NoSQL Database",
+                "level": "30%"
+            },
+            {
+                "name": "ReactJs, React Native",
+                "level": "50%"
+            },
+            {
+                "name": "C#",
+                "level": "50%"
+            },
+            {
+                "name": "Python",
+                "level": "50%"
+            },
+            {
+                "name": "Java",
+                "level": "40%"
+            },
+            {
+                "name": "C++",
+                "level": "40%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Update later",
+                "category": "My Travel Blog for my post-university travels",
+                "image": "canadian-wanderlust.jpg",
+                "url": "http://www.sonledev.com"
+            },
+            {
+                "title": "Update later",
+                "category": "(offline now) A fighting gear company I started",
+                "image": "fury-fighting-gear.jpg",
+                "url": "http://www.sonledev.com"
+            },
+            {
+                "title": "Update later",
+                "category": "Website I built for a restaurant I like in Thailand",
+                "image": "original-thai-food.jpg",
+                "url": "http://www.sonledev.com"
+            },
+            {
+                "title": "Resume Website",
+                "category": "A React based resume website",
+                "image": "resume-website.jpg",
+                "url": "http://www.sonledev.com"
+            },
+            {
+                "title": "Simple Chat App",
+                "category": "A Node.js and websocket real-time chat app project.",
+                "image": "smirkspace.jpg",
+                "url": "http://www.sonledev.com"
+            }
+        ]
+    },
+    "testimonials": {
+        "testimonials": [
+            {
+                "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+                "user": "Kareem Abdul Jabbar"
+            },
+            {
+                "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+                "user": "Steve Wozniak... impersonator"
+            }
+        ]
+    }
+}
