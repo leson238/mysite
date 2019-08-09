@@ -2,7 +2,7 @@
     "main": {
         "name": "Son Le",
         "occupation": "Backend/Mobile Developer",
-        "description": "I speak in multiple programming languages (JavaScript, Python, C#, C++, Java and Kotlin) and experienced with most of their popular frameworks",
+        "description": "I speak in multiple programming languages (JavaScript, Python, C#, C++, Java and Kotlin) and experienced with their popular frameworks",
         "image": "profilepic.jpg",
         "bio": "I always curious about everything. If I have enough time, I will try to fully explore a problem and deliver a perfect solution for it. However, my highest priority is getting works done.",
         "contactmessage": "Interested to discuss things with me? Here you are: ",
@@ -36,7 +36,7 @@
     },
     "resume": {
         "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-        "education": [
+        "educations": [
             {
                 "school": "Foreign Trade University, Hanoi, Vietnam",
                 "degree": "Bachelor of Internation Administration",
@@ -54,20 +54,6 @@
                 "degree": "Programming languages and their frameworks: JavaScript with React and Node; C# with ASP.NET and Unity; Java with Spring, libGDX and Android Studio; Python with Flask; C++",
                 "graduated": "On going",
                 "description": "Despite learning/working full time, I still managed to learn and master various technology tools and techniques."
-            }
-        ],
-        "work": [
-            {
-                "company": "Awesome Design Studio",
-                "title": "Senior UX God ",
-                "years": "March 2010 - Present",
-                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-            },
-            {
-                "company": "Super Cool Studio",
-                "title": "Junior bug fixer",
-                "years": "March 2007 - February 2010",
-                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
             }
         ],
         "skills": [
@@ -104,46 +90,10 @@
     "portfolio": {
         "projects": [
             {
-                "title": "Update later",
-                "category": "My Travel Blog for my post-university travels",
-                "image": "canadian-wanderlust.jpg",
-                "url": "http://www.sonledev.com"
-            },
-            {
-                "title": "Update soon",
-                "category": "(offline now) A fighting gear company I started",
-                "image": "fury-fighting-gear.jpg",
-                "url": "http://www.sonledev.com"
-            },
-            {
-                "title": "Update later",
-                "category": "Website I built for a restaurant I like in Thailand",
-                "image": "original-thai-food.jpg",
-                "url": "http://www.sonledev.com"
-            },
-            {
                 "title": "Resume Website",
                 "category": "A React based resume website",
                 "image": "resume-website.jpg",
                 "url": "http://www.sonledev.com"
-            },
-            {
-                "title": "Simple Chat App",
-                "category": "A Node.js and websocket real-time chat app project.",
-                "image": "smirkspace.jpg",
-                "url": "http://www.sonledev.com"
-            }
-        ]
-    },
-    "testimonials": {
-        "testimonials": [
-            {
-                "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-                "user": "Kareem Abdul Jabbar"
-            },
-            {
-                "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-                "user": "Steve Wozniak... impersonator"
             }
         ]
     }
