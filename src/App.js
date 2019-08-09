@@ -1,6 +1,8 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/jsx-filename-extension */
 import React, { Component } from 'react';
+import axios from 'axios';
+
 import Data from './resumeData';
 import './App.css';
 import Header from './Components/Header';
@@ -11,12 +13,40 @@ import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 
 class App extends Component {
+  static resetForm() {
+    document.getElementById('contactForm').reset();
+  }
+
   constructor(props) {
     super(props);
     this.state = {
       resumeData: Data,
       e: false,
     };
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+    // TODO: Set up backend API message handling
+    axios({
+      method: 'POST',
+      url: 'http://localhost:3000/send',
+      data: {
+        name,
+        email,
+        messsage: message,
+      },
+    }).then((response) => {
+      if (response.data.msg === 'success') {
+        this.resetForm();
+      } else if (response.data.msg === 'fail') {
+        // eslint-disable-next-line no-alert
+        alert('Message failed to send.');
+      }
+    });
   }
 
   render() {
@@ -27,7 +57,7 @@ class App extends Component {
         <About data={main} />
         <Resume data={resume} />
         <Portfolio data={portfolio} />
-        <Contact data={main} />
+        <Contact data={main} handleSubmit={this.handleSubmit} />
         <Footer data={main} />
       </div>
     ) : (
