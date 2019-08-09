@@ -54,21 +54,18 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-I am
-            {name}
+            I am
+            {` ${name}`}
 .
           </h1>
           <h3>
             I am a
-            {' '}
-            {city}
-            {' '}
-based
+            {` ${city} `}
+            based
             {' '}
             <span>{occupation}</span>
 .
-            {' '}
-            {description}
+            {` ${description}`}
 .
           </h3>
           <hr />
