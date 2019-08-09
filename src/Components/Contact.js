@@ -26,7 +26,7 @@ const Contact = ({ data, handleSubmit }) => {
 
       <div className="row">
         <div className="eight columns">
-          <form onSubmit={handleSubmit} method="POST" id="contactForm" name="contactForm">
+          <form method="POST" id="contact-form" name="contact-form" onSubmit={handleSubmit}>
             <fieldset>
               <div>
                 <label htmlFor="contactName">
@@ -34,7 +34,7 @@ const Contact = ({ data, handleSubmit }) => {
                   {' '}
                   <span className="required">*</span>
                 </label>
-                <input type="text" defaultValue="" size="35" id="contactName" name="contactName" />
+                <input type="text" defaultValue="" size="35" id="name" name="contactName" />
               </div>
               <div>
                 <label htmlFor="contactEmail">
@@ -42,23 +42,11 @@ const Contact = ({ data, handleSubmit }) => {
                   {' '}
                   <span className="required">*</span>
                 </label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  size="35"
-                  id="contactEmail"
-                  name="contactEmail"
-                />
+                <input type="text" defaultValue="" size="35" id="email" name="contactEmail" />
               </div>
               <div>
                 <label htmlFor="contactSubject">Subject</label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  size="35"
-                  id="contactSubject"
-                  name="contactSubject"
-                />
+                <input type="text" defaultValue="" size="35" id="subject" name="contactSubject" />
               </div>
               <div>
                 <label htmlFor="contactMessage">
@@ -66,7 +54,7 @@ const Contact = ({ data, handleSubmit }) => {
                   {' '}
                   <span className="required">*</span>
                 </label>
-                <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" />
+                <textarea cols="50" rows="15" id="message" name="contactMessage" />
               </div>
               <div>
                 <button className="submit" type="submit">

@@ -1,3 +1,4 @@
+/* eslint-disable class-methods-use-this */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/jsx-filename-extension */
 import React, { Component } from 'react';
@@ -13,10 +14,6 @@ import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio/Portfolio';
 
 class App extends Component {
-  static resetForm() {
-    document.getElementById('contactForm').reset();
-  }
-
   constructor(props) {
     super(props);
     this.state = {
@@ -30,10 +27,9 @@ class App extends Component {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
-    // TODO: Set up backend API message handling
     axios({
       method: 'POST',
-      url: 'http://localhost:3000/send',
+      url: 'http://localhost:3002/send',
       data: {
         name,
         email,
@@ -41,7 +37,7 @@ class App extends Component {
       },
     }).then((response) => {
       if (response.data.msg === 'success') {
-        this.resetForm();
+        document.getElementById('contact-form').reset();
       } else if (response.data.msg === 'fail') {
         // eslint-disable-next-line no-alert
         alert('Message failed to send.');
