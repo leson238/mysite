@@ -58,7 +58,7 @@ const Contact = ({ data, handleSubmit }) => {
               </div>
               <div>
                 <button className="submit" type="submit">
-                  Submit
+                  Send
                 </button>
                 <span id="image-loader">
                   <img alt="" src="images/loader.gif" />

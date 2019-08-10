@@ -2,10 +2,10 @@
     "main": {
         "name": "Son Le",
         "occupation": "Backend/Mobile Developer",
-        "description": "I speak in multiple programming languages (JavaScript, Python, C#, C++, Java and Kotlin) and experienced with their popular frameworks",
+        "description": "I speak in multiple programming languages (JavaScript, Python, C#, C++ and Java) and experienced with their popular frameworks",
         "image": "profilepic.jpg",
-        "bio": "I always curious about everything. If I have enough time, I will try to fully explore a problem and deliver a perfect solution for it. However, my highest priority is getting works done.",
-        "contactmessage": "Interested to discuss things with me? Here you are: ",
+        "bio": "I always curious about everything. I love books, games and nice days with friends and family. I also thirst for knowledge and can't stand ignorance. I am also a lazy cat, who always try to find the most simple way to solve a problem and proud of it.",
+        "contactmessage": "Want to talk with me? I will try to reply as soon as possible: ",
         "email": "leson238@gmail.com",
         "phone": "416-835-0938",
         "address": {
@@ -35,7 +35,7 @@
         ]
     },
     "resume": {
-        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+        "skillmessage": "My core skills overview: ",
         "educations": [
             {
                 "school": "Foreign Trade University, Hanoi, Vietnam",
@@ -90,8 +90,20 @@
     "portfolio": {
         "projects": [
             {
+                "title": "Weather App",
+                "category": "A simple NodeJS weather forecast based on geolocation using API",
+                "image": "weather-webapp.jpg",
+                "url": "https://sonle-weather-web-server.herokuapp.com/"
+            },
+            {
+                "title": "Realtime Chat App",
+                "category": "A NodeJS real time chat app with Express and Websocket",
+                "image": "realtime-chatapp.jpg",
+                "url": "http://sonle-chatapp.herokuapp.com/"
+            },
+            {
                 "title": "Resume Website",
-                "category": "A React based resume website",
+                "category": "A React based with NodeJS server resume website",
                 "image": "resume-website.jpg",
                 "url": "http://www.sonledev.com"
             }
