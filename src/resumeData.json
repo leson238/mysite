@@ -1,7 +1,7 @@
 {
     "main": {
         "name": "Son Le",
-        "occupation": "Backend/Mobile Developer",
+        "occupation": "Back-end/Mobile Developer",
         "description": "I speak in multiple programming languages (JavaScript, Python, C#, C++ and Java) and experienced with their popular frameworks",
         "image": "profilepic.jpg",
         "bio": "I always curious about everything. I love books, games and nice days with friends and family. I also thirst for knowledge and can't stand ignorance. I am also a lazy cat, who always try to find the most simple way to solve a problem and proud of it.",
@@ -19,7 +19,7 @@
         "social": [
             {
                 "name": "facebook",
-                "url": "http://facebook.com/le.thanhson.587",
+                "url": "https://facebook.com/le.thanhson.587",
                 "className": "fa fa-facebook"
             },
             {
@@ -93,7 +93,7 @@
                 "title": "Weather App",
                 "category": "A simple NodeJS weather forecast based on geolocation using API",
                 "image": "weather-webapp.jpg",
-                "url": "https://sonle-weather-web-server.herokuapp.com/"
+                "url": "https://sonle-weather-web-server.herokuapp.com"
             },
             {
                 "title": "Realtime Chat App",
@@ -105,7 +105,7 @@
                 "title": "Resume Website",
                 "category": "A React based with NodeJS server resume website",
                 "image": "resume-website.jpg",
-                "url": "http://www.sonledev.com"
+                "url": "http://www.mew-universe.com"
             }
         ]
     }
