@@ -7,15 +7,14 @@
         "bio": "I always curious about everything. I love books, games and nice days with friends and family. I also thirst for knowledge and can't stand ignorance. I am also a lazy cat, who always try to find the most simple way to solve a problem and proud of it.",
         "contactmessage": "Want to talk with me? I will try to reply as soon as possible: ",
         "email": "leson238@gmail.com",
-        "phone": "416-835-0938",
+        "phone": "Available on request",
         "address": {
-            "street": "30 Vanevery St.",
-            "city": "Toronto",
+            "city": "Etobicoke",
             "state": "Ontario",
             "zip": "M8V 1Y6"
         },
         "website": "http://www.mew-universe.com",
-        "resumedownload": "http://mew-universe.com/Resume.pdf",
+        "resumedownload": "http://www.mew-universe.com/Resume.pdf",
         "social": [
             {
                 "name": "facebook",
@@ -58,28 +57,28 @@
         ],
         "skills": [
             {
+                "name": "Python",
+                "level": "90%"
+            },
+            {
                 "name": "Node.js (with express.js and websocket)",
-                "level": "60%"
+                "level": "80%"
+            },            
+            {
+                "name": "ReactJs, React Native",
+                "level": "80%"
             },
             {
                 "name": "SQL and NoSQL Database",
-                "level": "30%"
-            },
-            {
-                "name": "ReactJs, React Native",
-                "level": "50%"
+                "level": "70%"
             },
             {
                 "name": "C#",
-                "level": "50%"
-            },
-            {
-                "name": "Python",
-                "level": "50%"
+                "level": "60%"
             },
             {
                 "name": "Java",
-                "level": "40%"
+                "level": "60%"
             },
             {
                 "name": "C++",

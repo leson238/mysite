@@ -9,7 +9,7 @@ const About = ({ data }) => {
   } = data;
   const profilepic = `images/${data.image}`;
   const {
-    street, city, state, zip,
+    city, state, zip,
   } = data.address;
   const resumeDownload = data.resumedownload;
   return (
@@ -28,8 +28,6 @@ const About = ({ data }) => {
                 <span>{name}</span>
                 <br />
                 <span>
-                  {street}
-                  <br />
                   {city}
                   {' '}
                   {state}
