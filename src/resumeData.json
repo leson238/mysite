@@ -1,13 +1,13 @@
 {
     "main": {
         "name": "Son Le",
-        "occupation": "Back-end/Mobile Developer",
-        "description": "I speak in multiple programming languages (JavaScript, Python, C#, C++ and Java) and experienced with their popular frameworks",
+        "occupation": "Back-end/DevOps Engineer",
+        "description": "I am an expert Python user, and also familiar with Javascript, Java, C#",
         "image": "profilepic.jpg",
-        "bio": "I always curious about everything. I love books, games and nice days with friends and family. I also thirst for knowledge and can't stand ignorance. I am also a lazy cat, who always try to find the most simple way to solve a problem and proud of it.",
+        "bio": "I always curious about everything. I love books, games and hang out with friends and family. I also thirst for knowledge and can't stand ignorance. I am also a lazy cat, who always try to find the most simple way to solve a problem and proud of it.",
         "contactmessage": "Want to talk with me? I will try to reply as soon as possible: ",
         "email": "leson238@gmail.com",
-        "phone": "Available on request",
+        "phone": "Phone available on request",
         "address": {
             "city": "Etobicoke",
             "state": "Ontario",
@@ -36,6 +36,12 @@
     "resume": {
         "skillmessage": "My core skills overview: ",
         "educations": [
+            {
+                "school": "Laurier Wilfrid University, Waterloo, Canada",
+                "degree": "Master of Computer Science",
+                "graduated": "2022",
+                "description": "Yes, my undergraduate CS knowledge is strong enough to get me a seat in Master's courses."
+            },
             {
                 "school": "Foreign Trade University, Hanoi, Vietnam",
                 "degree": "Bachelor of Internation Administration",
@@ -71,6 +77,14 @@
             {
                 "name": "SQL and NoSQL Database",
                 "level": "70%"
+            },
+            {
+                "name": "AWS",
+                "level": "70%"
+            },
+            {
+                "name":"Linux Ubuntu",
+                "level": "60%"
             },
             {
                 "name": "C#",
